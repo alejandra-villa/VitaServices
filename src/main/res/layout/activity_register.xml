@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="580dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/edtxDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:autofillHints="documento"
+            android:ems="10"
+            android:hint="@string/documento"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtxNombres"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:autofillHints="nombres"
+            android:ems="10"
+            android:hint="@string/nombres"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtxApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:autofillHints="apellidos"
+            android:ems="10"
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtxEdad"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:autofillHints="edad"
+            android:ems="10"
+            android:hint="@string/edad"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtxTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:autofillHints="telefono"
+            android:ems="10"
+            android:hint="@string/telefono"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtxCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:autofillHints="correo"
+            android:ems="10"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtxDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:autofillHints="direccion"
+            android:ems="10"
+            android:hint="@string/direccion"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/edtxBeneficiarios"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:autofillHints="beneficiarios"
+            android:ems="10"
+            android:hint="@string/beneficiarios"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="@string/registrar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity1">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="613dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="118dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/edtxTipoDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:autofillHints="tipo_documento"
+            android:ems="10"
+            android:hint="@string/tipo_documento"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="21dp" />
+
+        <EditText
+            android:id="@+id/edtxNumDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:autofillHints="num_documento"
+            android:ems="10"
+            android:hint="@string/num_documento"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <EditText
+            android:id="@+id/edtxPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:autofillHints="password"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/login" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
